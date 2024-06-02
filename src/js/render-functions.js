@@ -61,7 +61,7 @@ export function hideLoader() {
   console.log('-');
   setTimeout(() => {
     document.querySelector('.div-loader').classList.add('hidden');
-  },1000);
+  },2000);
 }
 
 export function toggleLoadMoreButton(show) {
